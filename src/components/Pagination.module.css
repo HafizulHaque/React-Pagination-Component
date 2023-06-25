@@ -1,0 +1,19 @@
+.disabledCursor {
+  cursor: not-allowed;
+}
+
+.narrowInput {
+  width: 5ch !important;
+}
+
+.narrowInput::-webkit-outer-spin-button,
+.narrowInput::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.narrowInput {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
